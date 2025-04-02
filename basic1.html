@@ -1,42 +1,11 @@
-<html>
-    <head>
-        <title>DOM</title>
-    </head>
-    <h1>Welcome to  javascript sesssion</h1>
-    <body>
-   <h2>javascript HTML Events</h2>
-   Enter your name: <input type="text" id="fname" onchange="upperCase()">
-   <p> when you leave the input field, a funtion is trigged which transforms the input text to upper case</p>
-    <script>
-         function upperCase() {
-            const x = document.getElementById("fname");
-            x.value=x.value.toUpperCase();
-         }
-        
-        </script>   
-        <hr style="padding: 10px;border: 0px;">
-        <div onmouseover="mOver(this)" onmouseout="mOut(this)"
-        style="background-color: red;width: 120px;height: 20px;padding: 40px;">
-    Mouse Over me</div>
-    <script>
-        function mOver(obj) {
-            obj.innerHTML="Thank You"
-            obj.style.backgroundColor="green";
-        }
-        function mOut(obj) {
-            obj.innerHTML="Mouse Over Me"
-            obj.style.backgroundColor="red";
-        }
-    </script>
-    <hr style="padding: 10px;border: 0px;">
-    <div onmousedown="mDown(this)" onmouseup="mUP(this)"
-    style="background-color: black;color: blue;width: 90px;height: 20px;padding: 40px;">
-    Click ME</div>
-    <script>
-        function mUP(obj) {
-            obj.style.backgroundColor="yellow";
-            obj.innerHTML="Thank You";
-        }
-    </script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Website</title>
+</head>
+<body>
+    <h1>Hai My name is Madhu</h1>
+</body>
 </html>
